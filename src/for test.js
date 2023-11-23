@@ -1,5 +1,5 @@
-let count=0
-let stopCount=10
+let count=1
+let stopCount=11
 
 /*while (count<stopCount) {
     console.log("count é:"+count)
@@ -7,6 +7,6 @@ let stopCount=10
 }*/
 
 do {
-    console.log("teste")
+    console.log("teste "+count)
     count++
 } while (count<stopCount);
