@@ -37,7 +37,7 @@ function CalculoNivel(SaldoVD){
         return ("Diamante")
     } else if((SaldoVD>=50)&&(SaldoVD<60)){
         return ("Lendário")
-    } else if((SaldoVD>=60)){
+    } else((SaldoVD>=60)){
         return ("Imortal")
     }
 }
