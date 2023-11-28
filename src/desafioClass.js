@@ -3,7 +3,7 @@ class Heroi{
         this.name=name
         this.age=age
         this.heroType=heroType
-        this.life=life
+        this.life=life //utilizar depois estrutura while para exibir golpes e ir tirando quantidade de vida (combate)
         this.attackType=attackType
     }
     AttackMethod(){

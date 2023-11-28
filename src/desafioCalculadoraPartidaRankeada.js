@@ -1,4 +1,4 @@
-let qtdPartidas=20
+let qtdPartidas=10
 let qtdDerrotas=1
 let MatchNumber=1
 
@@ -37,7 +37,7 @@ function CalculoNivel(SaldoVD){
         return ("Diamante")
     } else if((SaldoVD>=50)&&(SaldoVD<60)){
         return ("Lendário")
-    } else((SaldoVD>=60)){
+    } else((SaldoVD>=60));{
         return ("Imortal")
     }
 }
